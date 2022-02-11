@@ -21,7 +21,7 @@ body {
 
 .imagediv {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('../images/bugatti.jpg');
     background-position: center;
