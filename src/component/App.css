@@ -1,0 +1,68 @@
+
+
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('../images/bugatti.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ui.container {
+    margin-bottom: 40px;
+}
+
+.imagediv {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('../images/bugatti.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.search.icon {
+    cursor: pointer;
+}
+
+
+button {
+    padding: 0 3px;
+}
+
+.images {
+    width: 40%;
+    margin-bottom: 7px;
+}
+
+
+@media screen and (max-width: 400px) {
+    .ui.segment {
+        width: 95%;
+        position: relative;
+    }
+
+    button {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        height: 100%;
+    }
+
+    .imagediv {
+        width: 95%;
+    }
+}
+
+
+
