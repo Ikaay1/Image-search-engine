@@ -41,7 +41,7 @@ button {
 
 .images {
     width: 40%;
-    margin-bottom: 7px;
+    margin-bottom: 9px;
 }
 
 
@@ -61,6 +61,11 @@ button {
 
     .imagediv {
         width: 100%;
+    }
+
+    .images {
+        width: 100%;
+        margin-bottom: 9px;
     }
 }
 
